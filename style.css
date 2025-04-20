@@ -1,16 +1,29 @@
 
 body {
+    margin: 0;
     font-family: sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+    color: #333;
+}
+.header {
+    background-color: #222;
+    color: white;
+    padding: 2rem;
     text-align: center;
 }
-.profile-photo {
-    width: 200px;
-    height: 200px;
+.profile-img {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
+}
+.about, .projects {
+    padding: 2rem;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin: 1rem 0;
 }

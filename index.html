@@ -1,27 +1,45 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Jamshidbek Portfolio</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamshid Mardonov Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 <body>
-    <section id="about" class="about-section" data-aos="fade-up">
-        <div class="container">
-            <img src="img/jamshidbek.jpg" alt="Jamshidbek's profile photo" class="profile-photo" />
-            <div class="about-text">
-                <h2>Jamshid Mardonov</h2>
-                <p>Men backend dasturchiman. Python va NodeJS yo‘nalishida ishlayman...</p>
-            </div>
+    <header class="header">
+        <img src="profile.jpg" alt="Jamshidbek" class="profile-img" />
+        <h1>Jamshid Mardonov Abdumo'min o'g'li</h1>
+        <p>Backend Dasturchi</p>
+    </header>
+    <section class="about" data-aos="fade-up">
+        <h2>Men haqimda</h2>
+        <p>Men TATUFFda Axborot xavfsizligi yo‘nalishi 2-kurs talabasi bo‘lib, backend dasturlashni o‘rganmoqdaman. Hozirda Python, Node.js va backend frameworklarini puxta o‘zlashtiryapman.</p>
+        <p>Najot Ta'limda tajriba va ko‘nikma olyapman.</p>
+        <p>Kurslar: Coursera (2024) va boshqalar.</p>
+        <p>Email: jamshidmardonov323@gmail.com</p>
+        <p>Telegram: @abdumominovich</p>
+    </section>
+    <section class="projects" data-aos="fade-up">
+        <h2>Demo Loyihalar</h2>
+        <div class="card">
+            <h3>Python Basics App</h3>
+            <p>Python asoslarini o‘rganish uchun konsol ilovasi.</p>
+            <p><strong>Texnologiyalar:</strong> Python</p>
+            <a href="#">GitHub havola</a>
+        </div>
+        <div class="card">
+            <h3>HTML Portfolio</h3>
+            <p>Sodda va responsive portfolio sahifasi.</p>
+            <p><strong>Texnologiyalar:</strong> HTML, CSS</p>
+            <a href="#">GitHub havola</a>
         </div>
     </section>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
 </body>
 </html>
